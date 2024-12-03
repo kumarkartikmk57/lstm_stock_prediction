@@ -58,7 +58,7 @@ def prediction(ticker,period):
     plt.legend(['Train', 'Val', 'Predictions'], loc='lower right')
     plt.show()
 
-ticker = input("Enter the stock price : ")
+ticker = input("Enter the stock ticker : ")
 print("\n yfinance stock format ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max'] \n")
 period = input("Enter the period : ")
 prediction(ticker,period)
